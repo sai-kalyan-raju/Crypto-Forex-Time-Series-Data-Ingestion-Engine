@@ -18,7 +18,7 @@ def fetch_live_financial_data():
     params = {
         "vs_currency": "usd",
         "order": "market_cap_desc",
-        "per_page": 10,
+        "per_page": 60,
         "page": 1,
         "sparkline": False #sparkline is an array of 168 numbers representing the price of the coin every hour for the past 7 days.
     }
