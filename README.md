@@ -33,7 +33,7 @@ The pipeline writes to a SQLite table named `market_data` structured as follows:
 | `price_inr` | REAL | Dynamically calculated price in Indian Rupees |
 | `pipeline_run_time` | TIMESTAMP | The exact UTC execution time of the ETL batch |
 
-📊 Downstream Use Cases
+## 📊 Downstream Use Cases
 The resulting `crypto_historical_data.db` is structured as a relational database, making it immediately ready for:
 * **Advanced SQL Analytics:** Querying historical max/min prices using Window Functions and CTEs.
-**Business Intelligence:** Direct integration into Power BI or Tableau to build live dashboards visualizing price trends, market rank shifts, and fiat conversion impacts.
+* **Business Intelligence:** Direct integration into Power BI or Tableau to build live dashboards visualizing price trends, market rank shifts, and fiat conversion impacts.
